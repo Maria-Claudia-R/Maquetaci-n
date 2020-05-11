@@ -1,0 +1,360 @@
+header {
+    width: 100%;            
+    height: 90px;          
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    z-index: 99;
+    
+    background:  #000;
+    background-size: cover;
+    }
+    
+header article {
+    width: 1200px;
+    height: 90px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+header article a#logo {
+    width: 153px;
+    height: 60px;
+    display: block;
+    margin: 15px 10px 15px 0;
+    float: left;
+    position: relative;
+}
+header article a#logo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+header article nav#menu-principal {
+    width: 600px;
+    height: 60px;
+    display: block;
+    margin: 15px 0 15px 10px;
+    float: right;
+    position: relative;
+}
+header article nav#menu-principal a {
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+    
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.10em;
+    padding: 16px 15px;
+    transition: all 0.1s ease-in;                       
+}
+header article nav#menu-principal a:hover {
+    color: #2f5abc;
+    border-bottom: solid 2px #2db4af;
+    transition: all 0.2s ease-in;
+}
+
+
+main{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin:  0 auto;
+    float: none;
+    position: relative;
+}
+main section#banner-foto{
+    width: 100%;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+    background: url("img/imagen_Mesa%20de%20trabajo%201.jpg") no-repeat top center fixed #ffffff;
+    background-size: cover;
+}
+
+main section#banner-foto article{
+    width: 1000px;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#banner-foto article h1{
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3.7em;
+    padding: 220px 0 10px 0;
+    margin: 0;
+    font-weight: 500;
+}
+main section#banner-foto article p{
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.4em;
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+}
+
+
+
+main section#cuadros-colores{
+    width: 100%;
+    height: 650px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#cuadros-colores article{
+    width: 100%;
+    height: 650px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#cuadros-colores article figure#verde{
+    width: 25%;
+    height: 650px;
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+    
+    background: rgba(20, 150, 105, 0.69);
+}
+main section#cuadros-colores article figure#gris{
+    width: 25%;
+    height: 650px;
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+    
+    background: rgba(25, 131, 41, 0.69);
+}
+main section#cuadros-colores article figure#azul{
+    width: 50%;
+    height: 650px;
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+    
+    background: rgba(10, 87, 36, 0.81);
+}
+ 
+
+
+
+
+
+https://pixabay.com/es/photos/gato-cara-ojos-retrato-1455468/
+
+
+
+
+<!-- ASIDE -->
+        <aside>
+            
+        </aside>
+        
+ <!-- HEADER -->
+        <header>
+            <article>
+             <!-- LOGO -->
+            <a href="index.html" id="logo">
+                <imag src="img/Logo.svg">
+                </imag>
+            </a>
+             <!-- MENÚ HORIZONTAL -->
+            <nav>
+                <a href="index.html">INICIO</a>
+               <a href="Quien.soy.html">¿QUIÉN SOY?</a>
+                <a href="Servicios.html">SERVICIOS</a>
+                <a href="Contactar.html">CONTACTAR</a>
+            </nav>
+              <!-- MENÚ IDIOMA -->
+            
+            
+            
+            
+            </article>
+             </header>
+        
+ <!-- MAIN -->
+        <main>
+            
+        </main>
+        
+ <!-- FOOTER -->
+        <footer>
+            
+        </footer>
+        
+        
+       
+         
+         
+         
+         
+         
+         
+         
+         
+         <!-- MENÚ MÓVIL -->
+        <aside id="menu-cortina">
+            <a href="#" id="abrir">
+                <i class="fas fa-bars"></i>
+            </a>
+            <a href="#" id="cerrar">
+                <i class="fas fa-times"></i>
+            </a>
+
+            <nav id="menu-idioma-movil">
+                <a href="index.html">ESP</a>
+                <span>/</span>
+                <a href="home.html">ENG</a>
+            </nav>
+
+            <nav id="menu-principal-movil">
+                <a href="index.html">Inicio</a>
+                <a href="diseno-ux.html">Diseño UX</a>
+                <a href="diseno-ui.html">Diseño UI</a>
+                <a href="desarrollo-web.html">Desarrollo Web</a>
+                <a href="#">Contáctame</a>
+            </nav>
+
+            <!-- MENÚ REDES SOCIALES -->
+            <nav id="menu-redes-movil">
+                <!-- INSTAGRAM -->
+                <a href="https://www.linkedin.com/in/albertoangulodigital/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <!-- FACEBOOK -->
+                <a href="https://www.linkedin.com/in/albertoangulodigital/" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <!-- LINKEDIN -->
+                <a href="https://www.linkedin.com/in/albertoangulodigital/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- ENCABEZADO -->
+        <header>
+            <article>
+                <!-- LOGO -->
+                <a href="index.html" id="logo">
+                    <img src="img/alberto-angulo.svg">
+                </a>
+
+                <!-- MENÚ HORIZONTAL -->
+                <nav id="menu-principal">
+                    <a href="index.html">Inicio</a>
+                    <a href="diseno-ux.html">Diseño UX</a>
+                    <a href="diseno-ui.html">Diseño UI</a>
+                    <a href="desarrollo-web.html">Desarrollo Web</a>
+                    <a href="#">Contáctame</a>
+                </nav>
+
+                <!-- MENÚ IDIOMA -->
+                <nav id="menu-idioma">
+                    <a href="index.html">ESP</a>
+                    <span>/</span>
+                    <a href="home.html">ENG</a>
+                </nav>
+
+                
+                
+                
+                
+                
+                
+                
+                <!-- MENÚ REDES SOCIALES -->
+                <nav id="menu-redes">
+                    <!-- INSTAGRAM -->
+                    <a href="https://www.linkedin.com/in/albertoangulodigital/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <!-- FACEBOOK -->
+                    <a href="https://www.linkedin.com/in/albertoangulodigital/" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <!-- LINKEDIN -->
+                    <a href="https://www.linkedin.com/in/albertoangulodigital/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </nav>
+            </article>
+        </header>
+
+        <!-- CONTENIDO -->
+        <main>
+
+        </main>
+
+        <!-- PIE DE PÁGINA -->
+        <footer>
+            <!-- MENÚ REDES SOCIALES -->
+            <nav id="menu-redes">
+                <!-- INSTAGRAM -->
+                <a href="https://www.linkedin.com/in/albertoangulodigital/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <!-- FACEBOOK -->
+                <a href="https://www.linkedin.com/in/albertoangulodigital/" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <!-- LINKEDIN -->
+                <a href="https://www.linkedin.com/in/albertoangulodigital/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </nav>
+
+            <!-- LOGO -->
+            <a href="index.html" id="logo-footer">
+                <img src="img/alberto-angulo.svg">
+            </a>
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
