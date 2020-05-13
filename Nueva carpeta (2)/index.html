@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!--Título y Descripción de la Página x cada página del sitio web-->
+        <meta title="Nay's Collection">
+        <title>Nay's Collection</title>
+        <meta name="description" content="Descripción"/>
+        
+        <!--Codificación de Caracteres-->
+        <meta charset="utf-8">
+        
+        <!--Meta del Responsive-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!--Normalize, Modernizr y Prefix Free desde CDN-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+        
+        <!--Llamado a Font Awesome Icons-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        
+        <!--Llamado a Google Fonts-->
+      <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&family=Patua+One&display=swap" rel="stylesheet">
+        
+        <!--Llamado a CSS propio--> 
+        <link rel="stylesheet" href="estilo.css">
+        <link rel="stylesheet" href="fuentes/stylesheet.css">
+        
+        <!--Carga de Favicon-->
+        <link rel="icon" type="image/x-icon" href="img/icono.png">
+        <link rel="icon" type="image/gif" href="img/icono.png">
+        <link rel="shortcut icon" href="img/icono.png">
+    </head>
+    
+    <body>
+		<aside id="menu-cortina">
+            <a href="#" id="abrir">
+                <i class="fas fa-bars"></i>
+            </a>
+            
+            <a href="#" id="cerrar">
+                <i class="fas fa-times"></i>
+            </a>
+            
+            <nav id="menu-moviles">
+                <a href="#banner-foto">Inicio</a>
+                <a href="#fila-4-columnas">Productos</a>
+                <a href="#cuadros-colores">Galería</a>
+                <a href="https://goo.gl/maps/bvjzn8a942W6Vm1r9" target="_blank">¿Dónde estamos?</a>
+            </nav>
+        </aside>
+		
+        <!--BOTÓN DE WHATSAPP FLOTANTE-->
+        <aside id="menu-flotante">
+            <nav>
+                <!--WhatsApp-->
+                <a href="https://wa.me/316453730" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                
+                <!--Email-->
+                <a href="mailto:tucorreo@gmail.com" target="_blank">
+                    <i class="far fa-envelope"></i>
+                </a>
+                
+                <!--Llamada-->
+                <a href="tel:+57316453730" target="_blank">
+                    <i class="fas fa-phone"></i>
+                </a>
+            </nav>
+        </aside>
+
+        
+        <header>
+            <article>
+                <!-- LOGO -->
+                <a href="#" id="logo">
+                    <img src="img/logo.png">
+                </a>
+                
+                <!--MENÚ-->
+                <nav id="menu-principal">
+                    <a href="#banner-foto">Inicio</a>
+                	<a href="#fila-4-columnas">Productos</a>
+                	<a href="#cuadros-colores">Galería</a>
+                	<a href="https://goo.gl/maps/bvjzn8a942W6Vm1r9" target="_blank">¿Dónde estamos?</a>
+                </nav>
+            </article>
+        </header>
+        
+        <main>
+            <section id="banner-foto">
+                <!--
+                Nota: La imagen de fondo se carga desde el CSS
+                -->
+                <article>
+                    <h1>Nay's Collection</h1>
+                    <p>Somos una empresa dedicada a la fabricación y distribuiores de ropa para damas, realizamos ventas al por mayor y al detal.</p>
+                      <a href="#first" class="button large wide smooth-scroll-middle">ver mas</a>
+                </article>
+            </section>
+			
+			<section id="fila-4-columnas">
+				<article>
+					<figure>
+						<img src="img/fila1.jpg">
+						<h4>Blusas</h4>
+					</figure>
+					
+					<figure>
+						<img src="img/carnaval-01.jpg" >
+						<h4>Carnaval</h4>
+					</figure>
+					
+					<figure>
+						<img src="img/fila3.jpg">
+						<h4>Neones</h4>
+					</figure>
+					
+					<figure>
+						<img src="img/parejas-01.jpg">
+						<h4>Parejas</h4>
+					</figure>
+				</article>
+			</section>
+            
+            <section id="cuadros-imagen">
+                <article>
+                    <figure id="foto1"></figure>
+                    
+                    <figure id="foto2"></figure>
+                </article>
+                </section>
+            
+               <section id="fila-frase-larga">
+                 <article>   
+                     <h4> "El estilo es una forma de decir quien eres sin tener que hablar"</h4>
+           </article>
+            </section>
+         <section id="fila-3-fotos">
+				<article id="img-izquierda"></article>
+				<article id="img-centro"></article>
+				<article id="img-derecha"></article>
+			</section>
+		</main>
+        
+         <footer>
+            <a href="#" id="logo-footer">
+                <img src="img/logo.png">
+            </a>
+        </footer>
+        
+        <!--Llamados a JavaScript-->
+        <!--Llamado a jQuery y a jQuery Easing desde un CDN-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        
+        <!--Configuración de Menú Interno y Menú Cortina-->
+        <script src="script.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
